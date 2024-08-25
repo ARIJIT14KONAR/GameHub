@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game Hub!</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <nav>
+        <a href="#about-us" style="color: tan;">About Us</a>
+      </nav>
+    </header>
+    <div class="content"><h4>Welcome to Game Hub!</h4>
+
+      Ready to level up your downtime?
+      Whether you're looking to flex your brain muscles
+       with some strategy or just unwind with a classic,
+        we've got you covered. 
+        Dive into our collection of games,
+         handpicked to deliver all the fun without the fluff.
+          Challenge your friends, beat your own high scores,
+           or just chill with some easy wins—whatever your vibe,
+            Game Hub is where the fun starts. 
+      So, what are you waiting for? Let the games begin!</div>
+    <div class="game-buttons">
+      <button  class="TTT" onclick="redirectToGame('game1');">
+          <img src="images/TTT.jpg">
+          <span></span>
+          <span class="game-name">Tic Tac Toe</span>
+      </button>
+      <button class="SPS" onclick="redirectToGame('game2');">
+        <img src="images/stone paper scissor.jpg"> 
+        <span></span>
+          <span class="game-name">Stone Paper Scissor</span>
+      </button>
+      <button class="MG" onclick="redirectToGame('game3');">
+        <img src="images/memory game.jpg"> 
+        <span></span>
+          <span class="game-name">Memory Game</span>
+      </button>
+      <button class="C4" onclick="redirectToGame('game4');">
+          <img src="images/connect 4.jpg">
+          <span></span>
+          <span class="game-name">Connect 4</span>
+      </button>
+      <button class="SG" onclick="redirectToGame('game5');">
+        <img src="images/snake game.jpg">  
+        <span></span>
+          <span class="game-name">Snake Game</span>
+      </button>
+      <button class="MS" onclick="redirectToGame('game6');">
+          <img src="images/minesweeper.jpg">
+          <span></span>
+          <span class="game-name">Minesweeper</span>
+      </button>
+  </div>
+  
+    <footer>
+      <p>&copy; 2024 Game Hub. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
